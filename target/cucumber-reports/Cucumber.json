@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-04T18:30:43.602Z",
+        "start_timestamp": "2020-12-05T09:47:09.740Z",
         "line": 3,
         "name": "Run three tests in parallel (Chrome node 1)",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 95000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3644000000,
+              "duration": 4196000000,
               "status": "passed"
             },
             "line": 4,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 25000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "line": 5,
