@@ -117,7 +117,7 @@
           </executions>
           <configuration>
             <sourceJsonReportDirectory>target\cucumber-reports</sourceJsonReportDirectory>
-            <generatedHtmlReportDirectory>target\test-report</generatedHtmlReportDirectory>
+            <generatedHtmlReportDirectory>target\test-reports</generatedHtmlReportDirectory>
           </configuration>
         </plugin>
       </plugins>

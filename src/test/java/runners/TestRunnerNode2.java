@@ -7,8 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
  features = "src/test/java/features/",
 	glue = {"stepDefs"},
- 	plugin = {"pretty", "json:target/cucumber-reports/Cucumber.json",
- 			 "junit:target/cucumber-reports/Cucumber.xml"},
+ 	plugin = {"pretty", "json:target/cucumber-reports/CucumberNode2.json",
+ 			 "junit:target/cucumber-reports/CucumberNode2.xml"},
  	monochrome = true,
  	tags = "@node2Chrome"
  )
