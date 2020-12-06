@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="runners.TestRunnerNode2" class="method navigator-link" hash-for-method="runScenario(&quot;Run three tests in parallel (Chrome node 1)&quot;, &quot;Optional[Test for running tests in parallel using cu...)">runScenario("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cu...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="runners.TestRunnerNode2" class="method navigator-link" hash-for-method="runScenario(&quot;Run tests in parallel (Chrome node 2)&quot;, &quot;Optional[Test for running tests in parallel using cucumber...)">runScenario("Run tests in parallel (Chrome node 2)", "Optional[Test for running tests in parallel using cucumber...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="runners.TestRunnerNode1" class="method navigator-link" hash-for-method="runScenario(&quot;Run three tests in parallel (Chrome node 1)&quot;, &quot;Optional[Test for running tests in parallel using cu...)">runScenario("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cu...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="runners.TestRunnerNode1" class="method navigator-link" hash-for-method="runScenario(&quot;Run tests in parallel (Chrome node 1)&quot;, &quot;Optional[Test for running tests in parallel using cucumber...)">runScenario("Run tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cucumber...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,10 +132,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Run three tests in parallel (Chrome node 1)&quot;, &quot;Optional[Test for running tests in parallel using cu...)">
-                  </a> <!-- runScenario("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cu...) -->
+                  <a name="runScenario(&quot;Run tests in parallel (Chrome node 1)&quot;, &quot;Optional[Test for running tests in parallel using cucumber...)">
+                  </a> <!-- runScenario("Run tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cucumber...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cucumber]")</span>
+                  <span class="parameters">("Run tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cucumber (node 1)]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -150,10 +150,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Run three tests in parallel (Chrome node 1)&quot;, &quot;Optional[Test for running tests in parallel using cu...)">
-                  </a> <!-- runScenario("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cu...) -->
+                  <a name="runScenario(&quot;Run tests in parallel (Chrome node 2)&quot;, &quot;Optional[Test for running tests in parallel using cucumber...)">
+                  </a> <!-- runScenario("Run tests in parallel (Chrome node 2)", "Optional[Test for running tests in parallel using cucumber...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cucumber]")</span>
+                  <span class="parameters">("Run tests in parallel (Chrome node 2)", "Optional[Test for running tests in parallel using cucumber (node 2)]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -225,16 +225,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runners.TestRunnerNode1')
-data.setCell(0, 3, 3271);
+data.setCell(0, 3, 3331);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runners.TestRunnerNode2')
-data.setCell(1, 3, 2766);
+data.setCell(1, 3, 2530);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -272,20 +272,26 @@ return data;
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cu...)</span>
-                <span class="method-start">245 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">runners.TestRunnerNode2</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">runScenario("Run three tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cu...)</span>
-                <span class="method-start">245 ms</span>
+                <span class="method-name">runScenario("Run tests in parallel (Chrome node 2)", "Optional[Test for running tests in parallel using cucumber...)</span>
+                <span class="method-start">185 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runners.TestRunnerNode1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Run tests in parallel (Chrome node 1)", "Optional[Test for running tests in parallel using cucumber...)</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runners.TestRunnerNode2</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">3013 ms</span>
+                <span class="method-start">2717 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">

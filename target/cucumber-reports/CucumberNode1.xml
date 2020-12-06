@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.281">
-    <testcase classname="Test for running tests in parallel using cucumber" name="Run three tests in parallel (Chrome node 1)" time="3.194">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.341">
+    <testcase classname="Test for running tests in parallel using cucumber (node 1)" name="Run tests in parallel (Chrome node 1)" time="3.266">
         <system-out><![CDATA[Given I get the url "https://opensource-demo.orangehrmlive.com".............passed
 And I get the header........................................................passed
 ]]></system-out>

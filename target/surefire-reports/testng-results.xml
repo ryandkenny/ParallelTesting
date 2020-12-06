@@ -2,62 +2,62 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-05T17:25:25 GMT" name="Suite" finished-at="2020-12-05T17:25:29 GMT" duration-ms="3532">
+  <suite started-at="2020-12-06T21:44:40 GMT" name="Suite" finished-at="2020-12-06T21:44:43 GMT" duration-ms="3531">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerNode1@4d339552]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerNode2@f0f2775]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-12-05T17:25:25 GMT" name="Test" finished-at="2020-12-05T17:25:29 GMT" duration-ms="3532">
+    <test started-at="2020-12-06T21:44:40 GMT" name="Test" finished-at="2020-12-06T21:44:43 GMT" duration-ms="3531">
       <class name="runners.TestRunnerNode1">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.TestRunnerNode1@4d339552]" started-at="2020-12-05T17:25:25 GMT" name="setUpClass" finished-at="2020-12-05T17:25:25 GMT" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.TestRunnerNode1@4d339552]" started-at="2020-12-06T21:44:40 GMT" name="setUpClass" finished-at="2020-12-06T21:44:40 GMT" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerNode1@4d339552]" started-at="2020-12-05T17:25:25 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-05T17:25:29 GMT" duration-ms="3271" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerNode1@4d339552]" started-at="2020-12-06T21:44:40 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-06T21:44:43 GMT" duration-ms="3331" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Run three tests in parallel (Chrome node 1)"]]>
+                <![CDATA["Run tests in parallel (Chrome node 1)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Test for running tests in parallel using cucumber]"]]>
+                <![CDATA["Optional[Test for running tests in parallel using cucumber (node 1)]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerNode1@4d339552]" started-at="2020-12-05T17:25:29 GMT" name="tearDownClass" finished-at="2020-12-05T17:25:29 GMT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerNode1@4d339552]" started-at="2020-12-06T21:44:43 GMT" name="tearDownClass" finished-at="2020-12-06T21:44:43 GMT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runners.TestRunnerNode1 -->
       <class name="runners.TestRunnerNode2">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.TestRunnerNode2@f0f2775]" started-at="2020-12-05T17:25:25 GMT" name="setUpClass" finished-at="2020-12-05T17:25:25 GMT" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.TestRunnerNode2@f0f2775]" started-at="2020-12-06T21:44:40 GMT" name="setUpClass" finished-at="2020-12-06T21:44:40 GMT" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerNode2@f0f2775]" started-at="2020-12-05T17:25:25 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-05T17:25:28 GMT" duration-ms="2766" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerNode2@f0f2775]" started-at="2020-12-06T21:44:40 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-06T21:44:43 GMT" duration-ms="2530" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Run three tests in parallel (Chrome node 1)"]]>
+                <![CDATA["Run tests in parallel (Chrome node 2)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Test for running tests in parallel using cucumber]"]]>
+                <![CDATA["Optional[Test for running tests in parallel using cucumber (node 2)]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerNode2@f0f2775]" started-at="2020-12-05T17:25:28 GMT" name="tearDownClass" finished-at="2020-12-05T17:25:28 GMT" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerNode2@f0f2775]" started-at="2020-12-06T21:44:43 GMT" name="tearDownClass" finished-at="2020-12-06T21:44:43 GMT" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -1,0 +1,79 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-06T21:44:40.693Z",
+        "line": 3,
+        "name": "Run tests in parallel (Chrome node 2)",
+        "description": "",
+        "id": "test-for-running-tests-in-parallel-using-cucumber-(node-2);run-tests-in-parallel-(chrome-node-2)",
+        "after": [
+          {
+            "result": {
+              "duration": 130660000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.BaseStepDefs.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2261062000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I get the url \"https://www.duckduckgo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.duckduckgo.com",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefs.BaseStepDefs.navigateToUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59883000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I get the header",
+            "match": {
+              "location": "stepDefs.BaseStepDefs.getHeader()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@node2Chrome"
+          }
+        ]
+      }
+    ],
+    "name": "Test for running tests in parallel using cucumber (node 2)",
+    "description": "",
+    "id": "test-for-running-tests-in-parallel-using-cucumber-(node-2)",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/node2Chrome.feature",
+    "tags": [
+      {
+        "name": "@node2Chrome",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
